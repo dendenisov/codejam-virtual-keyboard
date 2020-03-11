@@ -1,0 +1,61 @@
+.text-center {
+    text-align: center;
+}
+
+.keyboard {
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 4px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.line::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.key {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.tab {
+    width: 60px;
+}
+
+.backspace, .caps {
+    width: auto;
+}
+
+.enter {
+    width: 95px;
+}
+
+.shift {
+    width: 100px;
+}
+
+.space {
+    width: 300px;
+}
+
+img {
+    padding-top: 13px;
+}
+
+.key:hover {
+    background-color: lightslategray;
+    cursor: pointer;
+}
